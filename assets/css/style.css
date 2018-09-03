@@ -1,0 +1,63 @@
+<head>
+    <style>
+:root {
+        box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+        box-sizing:inherit;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr1fr1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+.grid > * {
+    background-color:darkgray;
+    color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid">
+    <div class"a">a</div>
+ <div class"b">b</div>
+ <div class"c">c</div>
+ <div class"d">d</div>
+ <div class"e">e</div>
+ <div class"f">f</div>
+
+
+
+/*
+  Write the general styles of your content
+  For example, a typography scheme.
+*/
+
+
+/*
+  Write your CSS3 grid code here.
+*/
+
+
+/*
+  Refine the design of your child elements here.
+  For example, play around with white space with
+  padding, margins, and line-heights.
+*/
+
+
+/* Note: If you'd like to test your skills with
+    @media queries, feel free to do so. We will
+    review those CSS writing and design
+    techniques in class.
+*/
